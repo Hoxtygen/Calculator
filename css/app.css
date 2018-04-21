@@ -31,12 +31,13 @@ body {
         border-radius: 3px;
         margin: 0 7px 11px 0;
         line-height: 40px;
-        text-align: center; }
+        text-align: center;
+        cursor: pointer; }
     #container #calculator #display {
       border: 1px solid yellow;
       width: 212px;
       height: 40px;
-      background: #ccc;
+      background: transparent;
       text-align: right;
       margin-bottom: 10px; }
 
