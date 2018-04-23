@@ -1,0 +1,61 @@
+body        {
+    background: rgba(183, 0, 255, 0.63);
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wrapper     {
+    border: 2px solid green;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#calculator         {
+    width: 325px;
+    border: 2px solid red;
+    font-size: .9rem;
+    padding: 1.25em 1.25em 0.56em;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 5px;
+}
+
+.keys span          {
+    width: 4em;
+    border: 1px solid blueviolet;
+    float: left;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin:  0 10px 11px 4px;
+    background: black;
+    color: bisque;
+}
+
+.keys .operator        {
+    margin-right: 0;
+    background: coral;
+    color: darkcyan;
+}
+
+.screen         {
+    border: 2px solid magenta;
+    width: 277px;
+    height: 4em;
+    margin: 5px auto;
+    background: transparent;
+}
+
+.logo h4        {
+    margin: 0;
+}
+
+.logo p         {
+    margin: 0;
+    margin-bottom: 15px;
+}
