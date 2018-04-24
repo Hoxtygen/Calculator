@@ -6,39 +6,33 @@ body {
   font-size: 14px;
   color: #fff; }
 
-#container {
+.container {
+  border: 2px solid green;
   width: 80%;
   margin: 0 auto;
-  border: 2px solid red;
-  min-height: 100vh; }
-  #container #calculator {
+  height: 100vh; }
+  .container .calculator {
+    border: 2px dotted yellow;
     width: 325px;
     height: auto;
     margin: 100px auto;
     padding: 20px 20px 9px;
     box-sizing: border-box;
-    border-radius: 5px;
-    background: royalblue; }
-    #container #calculator #keys {
-      overflow: hidden;
-      margin-right: 0; }
-      #container #calculator #keys span {
+    border-radius: 5px; }
+    .container .calculator .keys {
+      overflow: hidden; }
+      .container .calculator .keys span {
         float: left;
-        width: 66px;
+        width: 60px;
         height: 40px;
-        border: 1px solid maroon;
-        background: orange;
+        border: 1px solid cyan;
         border-radius: 3px;
-        margin: 0 7px 11px 0;
         line-height: 40px;
+        margin: 0 7px 11px 0;
         text-align: center;
         cursor: pointer; }
-    #container #calculator #display {
-      border: 1px solid yellow;
-      width: 212px;
-      height: 40px;
-      background: transparent;
-      text-align: right;
-      margin-bottom: 10px; }
+
+.container .calculator .keys .operator {
+  margin-right: 0; }
 
 /*# sourceMappingURL=app.css.map */
